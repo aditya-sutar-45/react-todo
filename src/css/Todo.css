@@ -1,0 +1,53 @@
+.Todo {
+    border-bottom: 1px solid var(--dark-purple);
+    margin: 8px;
+    padding: 8px;
+}
+
+.Todo .todoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Todo .todoContainer .todoInfo {
+    width: 80%;
+}
+
+.Todo h2 {
+    margin: 0;
+    width: 100%;
+    color: var(--violet);
+}
+
+.Todo p {
+    margin: 0;
+    color: var(--black);
+    overflow-wrap: break-word;
+}
+
+.Todo .todoIcon {
+    background-color: rgba(0, 0, 0, 0);
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    font-size: 2rem;
+    transition: transform 0.1s ease;
+    transform-origin: center;
+}
+
+.Todo .todoIcon:hover {
+    border: none;
+    border-color: rgba(0, 0, 0, 0);
+    transform: scale(1.2);
+}
+
+@media screen and (max-width: 850px) {
+    .Todo .todoContainer div {
+        width: 100%;
+    }
+    .Todo .todoIcon {
+        padding-top: 8px;
+        margin: 0;
+    }
+}

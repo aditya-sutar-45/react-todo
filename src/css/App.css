@@ -1,0 +1,55 @@
+#root {
+  margin: 0 auto;
+  width: 70vw;
+}
+
+.App {
+  height: 100vh;
+  padding: 4rem;
+  background-color: var(--white);
+  border-radius: 8px;
+}
+
+.App h1 {
+  color: var(--black);
+}
+
+.App ul {
+  height: 80vh;
+  overflow: scroll;
+  background-color: white;
+  list-style-type: none;
+  margin: 8px 0 0 0;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 850px) {
+  #root {
+    width: 80%;
+  }
+  .App {
+    padding: 1rem;
+  }
+  .App ul {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #root {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .App {
+    padding: 0;
+  }
+  .App ul {
+    margin-top: 2px;
+    border-radius: 0;
+    height: 90vh;
+  }
+}
+

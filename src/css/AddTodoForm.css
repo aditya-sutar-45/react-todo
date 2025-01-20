@@ -1,0 +1,67 @@
+.AddTodoForm {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 8px;
+    background-color:#cdcdcd ;
+}
+
+
+.AddTodoForm form {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 8px;
+}
+
+.AddTodoForm form div {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 2px;
+}
+
+.AddTodoForm form div input {
+    height: 70%;
+    margin: auto 0;
+    background-color: var(--white);
+    border: 1px solid var(--pink);
+    border-radius: 8px;
+    width: 100%;
+}
+
+.AddTodoForm form div input::placeholder {
+    font-weight: 100;
+}
+
+.AddTodoForm form .addTaskButton {
+    background-color: transparent;
+    padding: 8px;
+    border: none;
+}
+.AddTodoForm form .addTaskButton:hover {
+    border: none;
+    border-color: rgba(0, 0, 0, 0);
+}
+
+.AddTodoForm form .addTaskButton svg {
+    fill: var(--dark-purple);
+    transition: transform 0.1s ease;
+    transform-origin: center;
+}
+
+.AddTodoForm form .addTaskButton svg:hover {
+    fill: var(--pink);
+    transform: scale(1.25);
+}
+
+@media screen and (max-width: 500px) {
+    .AddTodoForm {
+        border-radius: 0;
+    }
+}

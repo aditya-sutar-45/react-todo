@@ -1,0 +1,4 @@
+background: #EAEAEA
+random-pink: #893168
+black: #050404
+random-violet: #4A1942
