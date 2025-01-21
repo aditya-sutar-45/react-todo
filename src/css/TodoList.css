@@ -1,0 +1,43 @@
+.TodoList h1 {
+  color: var(--black);
+}
+
+.TodoList ul {
+  padding: 0;
+  height: 80vh;
+  overflow: scroll;
+  background-color: white;
+  list-style-type: none;
+  margin: 8px 0 0 0;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 850px) {
+  #root {
+    width: 80%;
+  }
+  .TodoList {
+    padding: 1rem;
+  }
+  .TodoList ul {
+    padding: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #root {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  .TodoList {
+    padding: 0;
+  }
+  .TodoList ul {
+    margin-top: 2px;
+    border-radius: 0;
+    height: 90vh;
+  }
+}
