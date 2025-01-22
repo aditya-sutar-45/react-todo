@@ -2,7 +2,7 @@ import "../css/ListHeader.css";
 import AddTodoForm from "./AddTodoForm";
 import { useState } from "react";
 
-export default function ListHeader({ addTodo }) {
+export default function ListHeader({ addTodo, currentList }) {
   const [formVisible, setFormVisible] = useState(false);
 
   function toggleForm() {
@@ -11,7 +11,9 @@ export default function ListHeader({ addTodo }) {
 
   return (
     <div className="ListHeader">
-      <h1>My List #1</h1>
+      <h1>
+        {currentList.emoji} {currentList.name}
+      </h1>
       <button className="toggleButton" onClick={toggleForm}>
         {formVisible ? (
           <svg
