@@ -1,4 +1,4 @@
-import "./css/Todo.css";
+import "../css/Todo.css";
 import TodoCompleteIcon from "./TodoCompleteIcon";
 import TodoDeleteButton from "./TodoDeleteButton";
 

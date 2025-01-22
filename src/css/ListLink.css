@@ -1,0 +1,23 @@
+.ListLink {
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    background-color: var(--pink);
+    transition: backgroun 0.1s ease;
+}
+
+.ListLink:hover {
+    background: linear-gradient(to left, var(--violet), var(--pink))
+}
+
+.ListLink a {
+    margin: 0;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.ListLink a p{
+    color: var(--white);
+    font-weight: 500;
+    margin: 0 8px;
+}

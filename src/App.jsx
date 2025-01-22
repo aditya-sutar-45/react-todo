@@ -1,5 +1,5 @@
 import { Outlet } from "react-router";
-import "./css/App.css";
+import "./css/App.css"
 
 function App() {
   return (

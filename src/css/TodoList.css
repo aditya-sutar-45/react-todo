@@ -32,9 +32,6 @@
 }
 
 @media screen and (max-width: 500px) {
-  .TodoList {
-    padding: 0;
-  }
   .TodoList ul {
     margin-top: 2px;
     border-radius: 0;

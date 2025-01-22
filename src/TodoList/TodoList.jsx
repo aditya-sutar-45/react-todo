@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Todo from "./Todo";
 import { v4 as uuid } from "uuid";
 import ListHeader from "./ListHeader";
-import "./css/TodoList.css";
+import "../css/TodoList.css";
 
 const getInitialData = () => {
   const data = JSON.parse(localStorage.getItem("todoList"));

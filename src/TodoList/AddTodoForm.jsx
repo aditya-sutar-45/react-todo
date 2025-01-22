@@ -1,5 +1,5 @@
 import { useForm } from "react-hook-form";
-import "./css/AddTodoForm.css";
+import "../css/AddTodoForm.css";
 
 const validationOptions = {
   title: {
