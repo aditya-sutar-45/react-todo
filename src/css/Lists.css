@@ -1,0 +1,19 @@
+.Lists {
+    width: 100%;
+    height: 100%;
+}
+
+.Lists h1 {
+    width: 100%;
+    margin: 0 0 8px;
+}
+
+.Lists .allLists {
+    height: 60%;
+}
+
+@media screen and (max-width: 500px) {
+    .Lists h1 {
+        padding: 8px;
+    }
+}

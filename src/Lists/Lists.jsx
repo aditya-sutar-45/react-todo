@@ -1,3 +1,4 @@
+import "../css/Lists.css";
 import { v4 as uuid } from "uuid";
 import { useEffect, useState } from "react";
 import ListLink from "./ListLink";
@@ -25,14 +26,14 @@ export default function Lists() {
     setLists([...lists, list]);
   }
   return (
-    <>
+    <div className="Lists">
       <h1>Your Lists</h1>
-      <div>
+      <div className="allLists">
         {lists.map((list) => (
           <ListLink key={list.id} list={list} />
         ))}
       </div>
       <NewListForm addList={addList} />
-    </>
+    </div>
   );
 }

@@ -13,23 +13,12 @@
 }
 
 @media screen and (max-width: 850px) {
-  #root {
-    width: 80%;
-  }
-  .TodoList {
-    padding: 1rem;
-  }
   .TodoList ul {
     padding: 0;
     width: 100%;
   }
 }
 
-@media screen and (max-width: 750px) {
-  #root {
-    width: 100%;
-  } 
-}
 
 @media screen and (max-width: 500px) {
   .TodoList ul {
