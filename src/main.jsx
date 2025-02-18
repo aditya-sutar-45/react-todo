@@ -6,7 +6,7 @@ import AppRoutes from "./AppRoutes.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter basename="/react-todo/">
+    <BrowserRouter basename="/">
       <AppRoutes />
     </BrowserRouter>
   </StrictMode>
