@@ -1,9 +1,14 @@
+import { useNavigate } from "react-router";
 import "../css/ListLink.css";
 
 export default function ListLink({ list }) {
+  const navigate = useNavigate();
   return (
     <div className="ListLink">
-      <a href={`/lists/${list.id}`}>
+      <a href={`/lists/${list.id}`} onClick={(e) => {
+        e.preventDefault();
+        navigate(`/lists/${list.id}`)
+      }}>
         <p>
           {list.emoji} {list.name}
         </p>
