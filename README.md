@@ -1,8 +1,14 @@
-# React + Vite
+# TODO or Not TODO
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, fun, and interactive Todo app built with React and Vite. Manage your tasks and lists effortlessly with a clean UI and dynamic routing.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Multiple Todo Lists:** Create and manage various todo lists.
+- **Dynamic Routing:** Each list can be accessed via its unique URL.
+- **Responsive Design:** Works smoothly on desktop and mobile.
+- **Fast & Lightweight:** Built with Vite for speedy builds and performance.
+
+## Demo
+
+Check out the live demo on Vercel: [TODO or Not TODO Demo](https://react-todo-ebon-two.vercel.app/)
