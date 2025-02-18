@@ -3,7 +3,7 @@ import "../css/ListLink.css";
 export default function ListLink({ list }) {
   return (
     <div className="ListLink">
-      <a href={`/react-todo/lists/${list.id}`}>
+      <a href={`/lists/${list.id}`}>
         <p>
           {list.emoji} {list.name}
         </p>
